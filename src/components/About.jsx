@@ -1,3 +1,5 @@
+import { logo2 } from "../constant/Api/Api";
+
 const About = () => {
   return (
     <section className="text-gray-600 body-font">
@@ -8,7 +10,7 @@ const About = () => {
               <img
                 alt=""
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src="./image/logo.png"
+                src={logo2}
               />
               <p className="leading-relaxed">
                 Edison bulb retro cloud bread echo park, helvetica stumptown
@@ -28,7 +30,7 @@ const About = () => {
               <img
                 alt=""
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src="./logo.png"
+                src={logo2}
               />
               <p className="leading-relaxed">
                 Edison bulb retro cloud bread echo park, helvetica stumptown
@@ -48,7 +50,7 @@ const About = () => {
               <img
                 alt=""
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src="./logo.png"
+                src={logo2}
               />
               <p className="leading-relaxed">
                 Edison bulb retro cloud bread echo park, helvetica stumptown
