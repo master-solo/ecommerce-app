@@ -6,7 +6,7 @@ const About = () => {
           <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center py-7 rounded-lg bg-gray-200">
               <img
-                alt="testimonial"
+                alt=""
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src="./logo.png"
               />
@@ -26,7 +26,7 @@ const About = () => {
           <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center py-7 rounded-lg bg-gray-200">
               <img
-                alt="testimonial"
+                alt=""
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src="./logo.png"
               />
@@ -46,7 +46,7 @@ const About = () => {
           <div className="lg:w-1/3 lg:mb-0 p-4">
             <div className="h-full text-center py-7 rounded-lg bg-gray-200">
               <img
-                alt="testimonial"
+                alt=""
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src="./logo.png"
               />
