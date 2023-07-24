@@ -16,9 +16,9 @@ function App() {
       <ScrollToTop />
       <NavBar />
       <Routes>
-        <Route path="/ecommerce-app" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path='/products' element={<Products />} />
-        <Route path='/ecommerce-app/product/:id' element={<Product />} />
+        <Route path='/product/:id' element={<Product />} />
         <Route path='/products/product/:id' element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path='/contact' element={<Contact />} />

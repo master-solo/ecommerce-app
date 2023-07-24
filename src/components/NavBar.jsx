@@ -3,7 +3,7 @@ import { Logo } from "../constant/Api/Api";
 const navitem = [
   {
     name: "Home",
-    path: "/ecommerce-app",
+    path: "/",
   },
   {
     name: "Products",
