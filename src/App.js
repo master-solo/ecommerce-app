@@ -12,7 +12,7 @@ import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/ecommerce-app'>
       <ScrollToTop />
       <NavBar />
       <Routes>
