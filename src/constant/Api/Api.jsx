@@ -1,0 +1,1 @@
+export const Logo = 'https://www.dynamicmarketing.eu/wp-content/uploads/2018/06/ecommerce.logo_.png'

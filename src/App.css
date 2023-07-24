@@ -1,0 +1,42 @@
+.l-con {
+  width: 100px;
+  height: 50px;
+  background: rgb(204, 202, 202);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: white;
+  animation: dot 1s ease infinite;
+  margin: 0 5px;
+}
+
+.d-1 {
+  animation-delay: 0s;
+}
+
+.d-2 {
+  animation-delay: 0.2s;
+}
+
+.d-3 {
+  animation-delay: 0.4s;
+}
+
+@keyframes dot {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
