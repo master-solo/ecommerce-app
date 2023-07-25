@@ -9,10 +9,10 @@ const Cart = () => {
 
   useEffect(() => {
     const total = cart.reduce((acc, item) => {
-      return acc + (item.quantity * item.price)
-    },0)
-    setTotle(total)
-  },[cart])
+      return acc + item.quantity * item.price;
+    }, 0);
+    setTotle(total);
+  }, [cart]);
 
   if (!cart.length)
     return (
@@ -87,7 +87,9 @@ const Cart = () => {
                       <img className="h-full" src={item.image} alt="p" />
                     </div>
                     <div className="flex flex-col justify-evenly">
-                      <h1 className=" font-bold ">{item.title.substring(0,15)}...</h1>
+                      <h1 className=" font-bold ">
+                        {item.title.substring(0, 10)}...
+                      </h1>
                       <p
                         className=" text-xs text-red-600 mt-2 cursor-pointer font-semibold"
                         onClick={() => remHandle(item.id)}
@@ -102,7 +104,7 @@ const Cart = () => {
                   <div className="border-l border-gray-800 flex items-center px-2">
                     <button
                       onClick={() => decrease(item)}
-                      className="inline-flex text-white font-extrabold bg-gray-400 border-0 py-0 px-2 focus:outline-none hover:bg-gray-500 rounded text-lg"
+                      className="inline-flex text-white text-xs font-extrabold bg-gray-400 border-0 py-0 px-2 focus:outline-none hover:bg-gray-500 rounded sm:text-lg"
                     >
                       -
                     </button>
@@ -111,7 +113,7 @@ const Cart = () => {
                     </h3>
                     <button
                       onClick={() => increase(item)}
-                      className="inline-flex text-white font-bold bg-gray-400 border-0 py-0 px-2 focus:outline-none hover:bg-gray-500 rounded text-lg"
+                      className="inline-flex text-white text-xs font-bold bg-gray-400 border-0 py-0 px-2 focus:outline-none hover:bg-gray-500 rounded sm:text-lg"
                     >
                       +
                     </button>
@@ -160,16 +162,10 @@ const Cart = () => {
             <div className="lg:col-span-5 col-span-3 flex items-center p-2 ml-1 ">
               <div className="mb-4 cursor-pointer ">
                 <Link to="/products" className=" flex items-center ">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 100 100"
-                    className=" h-6"
-                  >
-                    <polygon points="5,50 55,95 55,5" fill="black" />
-                  </svg>
-                  <span className=" font-bold text-xs ">Containue shopping</span>
+                  <div className="text-2xl font-black mr-1 pb-1">←</div>
+                  <span className=" font-bold text-xs ">
+                    Containue shopping
+                  </span>
                 </Link>
               </div>
             </div>

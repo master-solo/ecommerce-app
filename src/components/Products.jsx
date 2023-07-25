@@ -45,9 +45,9 @@ const Products = () => {
           </div>
         </div>
         <div className="flex justify-center py-4 mb-2 ">
-          <ul className="flex justify-evenly " style={{ width: 600 }}>
+          <ul className="flex sm:justify-evenly justify-center flex-wrap w-9/12 sm:w-[600px] ">
             <li
-              className="hover:text-blue-800 hover:underline cursor-pointer"
+              className="hover:text-blue-800 hover:underline cursor-pointer mx-2"
               onClick={() => {
                 setLoading(true);
                 setFilter(data);
@@ -57,25 +57,25 @@ const Products = () => {
               All
             </li>
             <li
-              className="hover:text-blue-800 hover:underline cursor-pointer"
+              className="hover:text-blue-800 hover:underline cursor-pointer mx-2"
               onClick={() => filterProduct("men's clothing")}
             >
               Men's clothing
             </li>
             <li
-              className="hover:text-blue-800 hover:underline cursor-pointer"
+              className="hover:text-blue-800 hover:underline cursor-pointer mx-2"
               onClick={() => filterProduct("women's clothing")}
             >
               Women's clothing
             </li>
             <li
-              className="hover:text-blue-800 hover:underline cursor-pointer"
+              className="hover:text-blue-800 hover:underline cursor-pointer mx-2"
               onClick={() => filterProduct("jewelery")}
             >
               Jewelery
             </li>
             <li
-              className="hover:text-blue-800 hover:underline cursor-pointer"
+              className="hover:text-blue-800 hover:underline cursor-pointer mx-2"
               onClick={() => filterProduct("electronics")}
             >
               Electronics

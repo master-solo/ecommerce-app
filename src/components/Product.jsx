@@ -52,15 +52,7 @@ const Product = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="mb-4 cursor-pointer ">
           <Link to='/products' className=" flex items-center ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="100"
-              height="100"
-              viewBox="0 0 100 100"
-              className=" h-6 pl-24 "
-            >
-              <polygon points="5,50 55,95 55,5" fill="black" />
-            </svg>
+            <div className="text-2xl font-black mr-1 pb-1">←</div>
             <span className=" font-bold text-xs ">Back to shop</span>
           </Link>
         </div>

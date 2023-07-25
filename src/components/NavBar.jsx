@@ -24,7 +24,7 @@ const NavBar = () => {
     <header className="text-gray-600 body-font shadow-lg sticky top-0 z-10 bg-white opacity-90 mt-2">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link
-          to="/ecommerce-app"
+          to="/"
           className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
           <img src={Logo} alt="" className=" w-14 rounded-full " />
